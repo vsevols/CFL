@@ -1,0 +1,661 @@
+{
+  "$id": "1",
+  "label": "RootNode",
+  "IsExpanded": true,
+  "Guid": "daf15286-9a9c-429f-bc97-cf64d4674f2b",
+  "dbgTmp": {
+    "$ref": "1"
+  },
+  "Index": 0,
+  "Parent": null,
+  "Childs": [
+    {
+      "$id": "2",
+      "label": "testing",
+      "IsExpanded": false,
+      "Guid": "969b81fd-8cf8-4729-9b83-ca37ad16396e",
+      "dbgTmp": {
+        "$ref": "2"
+      },
+      "Index": 0,
+      "Parent": {
+        "$ref": "1"
+      },
+      "Childs": [
+        {
+          "$id": "3",
+          "label": "testProject",
+          "IsExpanded": true,
+          "Guid": "5c1b7382-35cd-4004-bdd7-4548beee1ba6",
+          "dbgTmp": null,
+          "Index": 0,
+          "Parent": {
+            "$ref": "2"
+          },
+          "Childs": [
+            {
+              "$id": "4",
+              "label": "testSub",
+              "IsExpanded": false,
+              "Guid": "ee40f54e-2712-403a-8507-1bb4693c8095",
+              "dbgTmp": null,
+              "Index": 0,
+              "Parent": {
+                "$ref": "3"
+              },
+              "Childs": [],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": "",
+              "TimeSpent": "00:00:04.0006736",
+              "TimeSpentWithChilds": "00:00:04.0006736",
+              "NearestParentProjectInfo": "testProject : 00:01:39",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "3"
+              },
+              "PathWithProjects": "testSub<-testProject<-RootNode"
+            }
+          ],
+          "dbg": 0,
+          "Checked": false,
+          "Notes": "",
+          "TimeSpent": "00:01:35.0009560",
+          "TimeSpentWithChilds": "00:01:39.0016296",
+          "NearestParentProjectInfo": "testProject : 00:01:39",
+          "IsProject": true,
+          "NearestParentProject": {
+            "$ref": "3"
+          },
+          "PathWithProjects": "testProject<-RootNode"
+        },
+        {
+          "$id": "5",
+          "label": "link",
+          "IsExpanded": false,
+          "Guid": "bc8aeec4-b92f-4112-a90e-a259a5d887b7",
+          "dbgTmp": {
+            "$ref": "5"
+          },
+          "Index": 1,
+          "Parent": {
+            "$ref": "2"
+          },
+          "Childs": [],
+          "dbg": 0,
+          "Checked": false,
+          "Notes": "",
+          "TimeSpent": "00:00:00",
+          "TimeSpentWithChilds": "00:00:00",
+          "NearestParentProjectInfo": "RootNode : 00:24:50",
+          "IsProject": false,
+          "NearestParentProject": {
+            "$ref": "1"
+          },
+          "PathWithProjects": "link<-RootNode"
+        },
+        {
+          "$id": "6",
+          "label": "1",
+          "IsExpanded": true,
+          "Guid": "71032570-3859-466e-9347-f3a89fdd608f",
+          "dbgTmp": {
+            "$ref": "6"
+          },
+          "Index": 2,
+          "Parent": {
+            "$ref": "2"
+          },
+          "Childs": [
+            {
+              "$id": "7",
+              "label": "2",
+              "IsExpanded": true,
+              "Guid": "975d63a1-136d-43e5-9a7e-a9c05ab2f5ac",
+              "dbgTmp": {
+                "$ref": "7"
+              },
+              "Index": 0,
+              "Parent": {
+                "$ref": "6"
+              },
+              "Childs": [
+                {
+                  "$id": "8",
+                  "label": "3",
+                  "IsExpanded": true,
+                  "Guid": "bf8faa89-7617-43b4-afa8-0ba848e6c4f6",
+                  "dbgTmp": {
+                    "$ref": "8"
+                  },
+                  "Index": 0,
+                  "Parent": {
+                    "$ref": "7"
+                  },
+                  "Childs": [
+                    {
+                      "$id": "9",
+                      "label": "4",
+                      "IsExpanded": true,
+                      "Guid": "c5b9d166-d77e-4d57-af12-e07326f28e8a",
+                      "dbgTmp": {
+                        "$ref": "9"
+                      },
+                      "Index": 0,
+                      "Parent": {
+                        "$ref": "8"
+                      },
+                      "Childs": [
+                        {
+                          "$id": "10",
+                          "label": "5",
+                          "IsExpanded": true,
+                          "Guid": "4eb783bb-5748-4389-baae-1e99aedf7a8d",
+                          "dbgTmp": {
+                            "$ref": "10"
+                          },
+                          "Index": 0,
+                          "Parent": {
+                            "$ref": "9"
+                          },
+                          "Childs": [
+                            {
+                              "$id": "11",
+                              "label": "6",
+                              "IsExpanded": false,
+                              "Guid": "ffcfc39f-10fa-4c48-afcd-2a1f19b7af0e",
+                              "dbgTmp": {
+                                "$ref": "11"
+                              },
+                              "Index": 0,
+                              "Parent": {
+                                "$ref": "10"
+                              },
+                              "Childs": [],
+                              "dbg": 0,
+                              "Checked": false,
+                              "Notes": "",
+                              "TimeSpent": "00:00:01.9990640",
+                              "TimeSpentWithChilds": "00:00:01.9990640",
+                              "NearestParentProjectInfo": "RootNode : 00:24:50",
+                              "IsProject": false,
+                              "NearestParentProject": {
+                                "$ref": "1"
+                              },
+                              "PathWithProjects": "6<-RootNode"
+                            }
+                          ],
+                          "dbg": 0,
+                          "Checked": true,
+                          "Notes": "",
+                          "TimeSpent": "00:00:03.0003044",
+                          "TimeSpentWithChilds": "00:00:04.9993684",
+                          "NearestParentProjectInfo": "RootNode : 00:24:50",
+                          "IsProject": false,
+                          "NearestParentProject": {
+                            "$ref": "1"
+                          },
+                          "PathWithProjects": "5<-RootNode"
+                        }
+                      ],
+                      "dbg": 0,
+                      "Checked": false,
+                      "Notes": "4note",
+                      "TimeSpent": "00:00:03.0021232",
+                      "TimeSpentWithChilds": "00:00:08.0014916",
+                      "NearestParentProjectInfo": "RootNode : 00:24:50",
+                      "IsProject": false,
+                      "NearestParentProject": {
+                        "$ref": "1"
+                      },
+                      "PathWithProjects": "4<-RootNode"
+                    },
+                    {
+                      "$id": "12",
+                      "label": "7",
+                      "IsExpanded": false,
+                      "Guid": "fb1fa444-664a-4028-b13a-184672451c6f",
+                      "dbgTmp": {
+                        "$ref": "12"
+                      },
+                      "Index": 1,
+                      "Parent": {
+                        "$ref": "8"
+                      },
+                      "Childs": [],
+                      "dbg": 0,
+                      "Checked": false,
+                      "Notes": "7note",
+                      "TimeSpent": "00:00:00",
+                      "TimeSpentWithChilds": "00:00:00",
+                      "NearestParentProjectInfo": "RootNode : 00:24:50",
+                      "IsProject": false,
+                      "NearestParentProject": {
+                        "$ref": "1"
+                      },
+                      "PathWithProjects": "7<-RootNode"
+                    }
+                  ],
+                  "dbg": 0,
+                  "Checked": false,
+                  "Notes": "",
+                  "TimeSpent": "00:00:08.9965501",
+                  "TimeSpentWithChilds": "00:00:16.9980417",
+                  "NearestParentProjectInfo": "RootNode : 00:24:50",
+                  "IsProject": false,
+                  "NearestParentProject": {
+                    "$ref": "1"
+                  },
+                  "PathWithProjects": "3<-RootNode"
+                }
+              ],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": "",
+              "TimeSpent": "00:00:11.0001618",
+              "TimeSpentWithChilds": "00:00:27.9982035",
+              "NearestParentProjectInfo": "RootNode : 00:24:50",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "1"
+              },
+              "PathWithProjects": "2<-RootNode"
+            },
+            {
+              "$id": "13",
+              "label": "new1",
+              "IsExpanded": true,
+              "Guid": "20ed14ee-1106-476d-8042-fe5a38f31363",
+              "dbgTmp": {
+                "$ref": "13"
+              },
+              "Index": 1,
+              "Parent": {
+                "$ref": "6"
+              },
+              "Childs": [
+                {
+                  "$id": "14",
+                  "label": "new2",
+                  "IsExpanded": false,
+                  "Guid": "139e0844-f28d-4935-82f6-efffd8a41257",
+                  "dbgTmp": {
+                    "$ref": "14"
+                  },
+                  "Index": 0,
+                  "Parent": {
+                    "$ref": "13"
+                  },
+                  "Childs": [],
+                  "dbg": 0,
+                  "Checked": false,
+                  "Notes": "",
+                  "TimeSpent": "00:00:00",
+                  "TimeSpentWithChilds": "00:00:00",
+                  "NearestParentProjectInfo": "RootNode : 00:24:50",
+                  "IsProject": false,
+                  "NearestParentProject": {
+                    "$ref": "1"
+                  },
+                  "PathWithProjects": "new2<-RootNode"
+                },
+                {
+                  "$id": "15",
+                  "label": "new3",
+                  "IsExpanded": false,
+                  "Guid": "cb5ccda4-96c7-4de2-a12a-7bb47d8388a6",
+                  "dbgTmp": {
+                    "$ref": "15"
+                  },
+                  "Index": 1,
+                  "Parent": {
+                    "$ref": "13"
+                  },
+                  "Childs": [],
+                  "dbg": 0,
+                  "Checked": false,
+                  "Notes": "",
+                  "TimeSpent": "00:00:00",
+                  "TimeSpentWithChilds": "00:00:00",
+                  "NearestParentProjectInfo": "RootNode : 00:24:50",
+                  "IsProject": false,
+                  "NearestParentProject": {
+                    "$ref": "1"
+                  },
+                  "PathWithProjects": "new3<-RootNode"
+                }
+              ],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": "",
+              "TimeSpent": "00:00:00",
+              "TimeSpentWithChilds": "00:00:00",
+              "NearestParentProjectInfo": "RootNode : 00:24:50",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "1"
+              },
+              "PathWithProjects": "new1<-RootNode"
+            },
+            {
+              "$id": "16",
+              "label": "new4",
+              "IsExpanded": false,
+              "Guid": "faf6a24d-cc01-43d8-a22c-9aeaf195a629",
+              "dbgTmp": {
+                "$ref": "16"
+              },
+              "Index": 2,
+              "Parent": {
+                "$ref": "6"
+              },
+              "Childs": [],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": "",
+              "TimeSpent": "00:00:00",
+              "TimeSpentWithChilds": "00:00:00",
+              "NearestParentProjectInfo": "RootNode : 00:24:50",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "1"
+              },
+              "PathWithProjects": "new4<-RootNode"
+            }
+          ],
+          "dbg": 0,
+          "Checked": true,
+          "Notes": "",
+          "TimeSpent": "00:01:16.9901209",
+          "TimeSpentWithChilds": "00:01:44.9883244",
+          "NearestParentProjectInfo": "RootNode : 00:24:50",
+          "IsProject": false,
+          "NearestParentProject": {
+            "$ref": "1"
+          },
+          "PathWithProjects": "1<-RootNode"
+        }
+      ],
+      "dbg": 0,
+      "Checked": false,
+      "Notes": "",
+      "TimeSpent": "00:00:00",
+      "TimeSpentWithChilds": "00:03:23.9899540",
+      "NearestParentProjectInfo": "RootNode : 00:24:50",
+      "IsProject": false,
+      "NearestParentProject": {
+        "$ref": "1"
+      },
+      "PathWithProjects": "testing<-RootNode"
+    },
+    {
+      "$id": "17",
+      "label": "Inbox",
+      "IsExpanded": false,
+      "Guid": "053204eb-731e-482d-a6ca-30d746dd2b9e",
+      "dbgTmp": null,
+      "Index": 1,
+      "Parent": {
+        "$ref": "1"
+      },
+      "Childs": [
+        {
+          "$id": "18",
+          "label": "Alt+Кнопка - выскакивает окно MLO",
+          "IsExpanded": true,
+          "Guid": "7eb6d166-071f-406c-875b-9ab9319a257c",
+          "dbgTmp": null,
+          "Index": 0,
+          "Parent": {
+            "$ref": "17"
+          },
+          "Childs": [
+            {
+              "$id": "19",
+              "label": "Сбросил Rapid Task Hotkey в default",
+              "IsExpanded": false,
+              "Guid": "920366da-d4ff-4294-86e6-920735d9797a",
+              "dbgTmp": null,
+              "Index": 0,
+              "Parent": {
+                "$ref": "18"
+              },
+              "Childs": [],
+              "dbg": 0,
+              "Checked": true,
+              "Notes": "",
+              "TimeSpent": "00:00:23.0116704",
+              "TimeSpentWithChilds": "00:00:23.0116704",
+              "NearestParentProjectInfo": "RootNode : 00:24:50",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "1"
+              },
+              "PathWithProjects": "Сбросил Rapid Task Hotkey в default<-RootNode"
+            }
+          ],
+          "dbg": 0,
+          "Checked": true,
+          "Notes": "",
+          "TimeSpent": "00:01:53.0045284",
+          "TimeSpentWithChilds": "00:02:16.0161988",
+          "NearestParentProjectInfo": "RootNode : 00:24:50",
+          "IsProject": false,
+          "NearestParentProject": {
+            "$ref": "1"
+          },
+          "PathWithProjects": "Alt+Кнопка - выскакивает окно MLO<-RootNode"
+        }
+      ],
+      "dbg": 0,
+      "Checked": false,
+      "Notes": "",
+      "TimeSpent": "00:00:31.0039215",
+      "TimeSpentWithChilds": "00:02:47.0201203",
+      "NearestParentProjectInfo": "RootNode : 00:24:50",
+      "IsProject": false,
+      "NearestParentProject": {
+        "$ref": "1"
+      },
+      "PathWithProjects": "Inbox<-RootNode"
+    },
+    {
+      "$id": "20",
+      "label": "Miscellaneous",
+      "IsExpanded": true,
+      "Guid": "d9f60902-1dd1-493e-811f-6b7bd94cd3eb",
+      "dbgTmp": null,
+      "Index": 2,
+      "Parent": {
+        "$ref": "1"
+      },
+      "Childs": [],
+      "dbg": 0,
+      "Checked": false,
+      "Notes": "",
+      "TimeSpent": "00:01:07.9923056",
+      "TimeSpentWithChilds": "00:01:07.9923056",
+      "NearestParentProjectInfo": "Miscellaneous : 00:01:07",
+      "IsProject": true,
+      "NearestParentProject": {
+        "$ref": "20"
+      },
+      "PathWithProjects": "Miscellaneous<-RootNode"
+    },
+    {
+      "$id": "21",
+      "label": "TreeGUI",
+      "IsExpanded": true,
+      "Guid": "3d74128c-9687-4cc8-bac9-0acb16bb5d4f",
+      "dbgTmp": null,
+      "Index": 3,
+      "Parent": {
+        "$ref": "1"
+      },
+      "Childs": [
+        {
+          "$id": "22",
+          "label": "Версия для собственной работы",
+          "IsExpanded": true,
+          "Guid": "0b5b486f-d134-4dab-b164-95fa8cd78e68",
+          "dbgTmp": null,
+          "Index": 0,
+          "Parent": {
+            "$ref": "21"
+          },
+          "Childs": [
+            {
+              "$id": "23",
+              "label": "путь к _data возле EXE",
+              "IsExpanded": true,
+              "Guid": "4bc4aee4-3408-46df-94b8-6bfe82efa046",
+              "dbgTmp": null,
+              "Index": 0,
+              "Parent": {
+                "$ref": "22"
+              },
+              "Childs": [
+                {
+                  "$id": "24",
+                  "label": "Где хранить рабочую версию?",
+                  "IsExpanded": false,
+                  "Guid": "e78b1075-10a9-4412-a876-d882156679d4",
+                  "dbgTmp": null,
+                  "Index": 0,
+                  "Parent": {
+                    "$ref": "23"
+                  },
+                  "Childs": [],
+                  "dbg": 0,
+                  "Checked": false,
+                  "Notes": "",
+                  "TimeSpent": "00:05:36.0338600",
+                  "TimeSpentWithChilds": "00:05:36.0338600",
+                  "NearestParentProjectInfo": "TreeGUI : 00:17:31",
+                  "IsProject": false,
+                  "NearestParentProject": {
+                    "$ref": "21"
+                  },
+                  "PathWithProjects": "Где хранить рабочую версию?<-TreeGUI<-RootNode"
+                }
+              ],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": "",
+              "TimeSpent": "00:03:31.9920120",
+              "TimeSpentWithChilds": "00:09:08.0258720",
+              "NearestParentProjectInfo": "TreeGUI : 00:17:31",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "21"
+              },
+              "PathWithProjects": "путь к _data возле EXE<-TreeGUI<-RootNode"
+            },
+            {
+              "$id": "25",
+              "label": "Регулярное сохранение времени",
+              "IsExpanded": false,
+              "Guid": "c0178f7c-9b58-442a-8dcd-f9e18718976a",
+              "dbgTmp": null,
+              "Index": 1,
+              "Parent": {
+                "$ref": "22"
+              },
+              "Childs": [],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": "",
+              "TimeSpent": "00:03:57.0323153",
+              "TimeSpentWithChilds": "00:03:57.0323153",
+              "NearestParentProjectInfo": "TreeGUI : 00:17:31",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "21"
+              },
+              "PathWithProjects": "Регулярное сохранение времени<-TreeGUI<-RootNode"
+            },
+            {
+              "$id": "26",
+              "label": "Отладочные кнопки сделать невидимыми",
+              "IsExpanded": false,
+              "Guid": "9b542ffe-630b-4bd8-b0c6-c5038909155a",
+              "dbgTmp": null,
+              "Index": 2,
+              "Parent": {
+                "$ref": "22"
+              },
+              "Childs": [],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": "",
+              "TimeSpent": "00:01:11.0179487",
+              "TimeSpentWithChilds": "00:01:11.0179487",
+              "NearestParentProjectInfo": "TreeGUI : 00:17:31",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "21"
+              },
+              "PathWithProjects": "Отладочные кнопки сделать невидимыми<-TreeGUI<-RootNode"
+            },
+            {
+              "$id": "27",
+              "label": "chkLock - передвинуть",
+              "IsExpanded": false,
+              "Guid": "e20ad198-f12f-43d4-b90b-160160b4fdc8",
+              "dbgTmp": null,
+              "Index": 3,
+              "Parent": {
+                "$ref": "22"
+              },
+              "Childs": [],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": "",
+              "TimeSpent": "00:00:31.9988113",
+              "TimeSpentWithChilds": "00:00:31.9988113",
+              "NearestParentProjectInfo": "TreeGUI : 00:17:31",
+              "IsProject": false,
+              "NearestParentProject": {
+                "$ref": "21"
+              },
+              "PathWithProjects": "chkLock - передвинуть<-TreeGUI<-RootNode"
+            }
+          ],
+          "dbg": 0,
+          "Checked": false,
+          "Notes": "",
+          "TimeSpent": "00:02:43.0052356",
+          "TimeSpentWithChilds": "00:17:31.0801829",
+          "NearestParentProjectInfo": "TreeGUI : 00:17:31",
+          "IsProject": false,
+          "NearestParentProject": {
+            "$ref": "21"
+          },
+          "PathWithProjects": "Версия для собственной работы<-TreeGUI<-RootNode"
+        }
+      ],
+      "dbg": 0,
+      "Checked": false,
+      "Notes": "",
+      "TimeSpent": "00:00:00",
+      "TimeSpentWithChilds": "00:17:31.0801829",
+      "NearestParentProjectInfo": "TreeGUI : 00:17:31",
+      "IsProject": true,
+      "NearestParentProject": {
+        "$ref": "21"
+      },
+      "PathWithProjects": "TreeGUI<-RootNode"
+    }
+  ],
+  "dbg": 0,
+  "Checked": true,
+  "Notes": "",
+  "TimeSpent": "00:00:00",
+  "TimeSpentWithChilds": "00:24:50.0825628",
+  "NearestParentProjectInfo": "RootNode : 00:24:50",
+  "IsProject": false,
+  "NearestParentProject": {
+    "$ref": "1"
+  },
+  "PathWithProjects": "RootNode"
+}

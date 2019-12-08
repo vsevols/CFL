@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32_API", "Win32_API\Win32_API.csproj", "{19FF3114-84E4-4690-84D1-DC50829B875D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApplication1", "WindowsApplication1\WindowsApplication1.csproj", "{67AF781F-A65F-4E68-BC79-09F0D649E80D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{19FF3114-84E4-4690-84D1-DC50829B875D}.Debug.ActiveCfg = Debug|.NET
+		{19FF3114-84E4-4690-84D1-DC50829B875D}.Debug.Build.0 = Debug|.NET
+		{19FF3114-84E4-4690-84D1-DC50829B875D}.Release.ActiveCfg = Release|.NET
+		{19FF3114-84E4-4690-84D1-DC50829B875D}.Release.Build.0 = Release|.NET
+		{67AF781F-A65F-4E68-BC79-09F0D649E80D}.Debug.ActiveCfg = Debug|.NET
+		{67AF781F-A65F-4E68-BC79-09F0D649E80D}.Debug.Build.0 = Debug|.NET
+		{67AF781F-A65F-4E68-BC79-09F0D649E80D}.Release.ActiveCfg = Release|.NET
+		{67AF781F-A65F-4E68-BC79-09F0D649E80D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

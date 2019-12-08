@@ -1,0 +1,130 @@
+{
+  "$id": "1",
+  "label": "RootNode",
+  "IsExpanded": true,
+  "Parent": null,
+  "Loaded": true,
+  "Index": 0,
+  "Childs": [
+    {
+      "$id": "2",
+      "label": "1",
+      "IsExpanded": true,
+      "Parent": {
+        "$ref": "1"
+      },
+      "Loaded": true,
+      "Index": 0,
+      "Childs": [
+        {
+          "$id": "3",
+          "label": "2",
+          "IsExpanded": true,
+          "Parent": {
+            "$ref": "2"
+          },
+          "Loaded": true,
+          "Index": 0,
+          "Childs": [
+            {
+              "$id": "4",
+              "label": "3",
+              "IsExpanded": true,
+              "Parent": {
+                "$ref": "3"
+              },
+              "Loaded": true,
+              "Index": 0,
+              "Childs": [
+                {
+                  "$id": "5",
+                  "label": "4",
+                  "IsExpanded": true,
+                  "Parent": {
+                    "$ref": "4"
+                  },
+                  "Loaded": true,
+                  "Index": 0,
+                  "Childs": [
+                    {
+                      "$id": "6",
+                      "label": "5",
+                      "IsExpanded": true,
+                      "Parent": {
+                        "$ref": "5"
+                      },
+                      "Loaded": true,
+                      "Index": 0,
+                      "Childs": [
+                        {
+                          "$id": "7",
+                          "label": "6",
+                          "IsExpanded": false,
+                          "Parent": {
+                            "$ref": "6"
+                          },
+                          "Loaded": true,
+                          "Index": 0,
+                          "Childs": [],
+                          "dbg": 0,
+                          "Checked": false,
+                          "Notes": ""
+                        }
+                      ],
+                      "dbg": 0,
+                      "Checked": true,
+                      "Notes": ""
+                    }
+                  ],
+                  "dbg": 0,
+                  "Checked": false,
+                  "Notes": ""
+                },
+                {
+                  "$id": "8",
+                  "label": "7",
+                  "IsExpanded": false,
+                  "Parent": {
+                    "$ref": "4"
+                  },
+                  "Loaded": true,
+                  "Index": 1,
+                  "Childs": [],
+                  "dbg": 0,
+                  "Checked": false,
+                  "Notes": ""
+                }
+              ],
+              "dbg": 0,
+              "Checked": false,
+              "Notes": ""
+            }
+          ],
+          "dbg": 0,
+          "Checked": false,
+          "Notes": ""
+        },
+        {
+          "$id": "9",
+          "label": "testing",
+          "IsExpanded": false,
+          "Parent": {
+            "$ref": "1"
+          },
+          "Loaded": false,
+          "Index": 1,
+          "Childs": [],
+          "dbg": 0,
+          "Checked": false,
+          "Notes": ""
+        }
+      ],
+      "dbg": 0,
+      "Checked": true,
+      "Notes": ""
+    }
+  ],
+  "dbg": 0,
+  "Checked": true,
+  "Notes": "\nTreeGUI.Form1.RtNotes_LinkClicked\n\\\\mlo:{23A72DB6-114B-47FB-BED6-33D477F4D654}"
+}
